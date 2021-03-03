@@ -1,67 +1,57 @@
-# Desafio para desenvolvedor Front-End React
+<h1 align="center">
+    <img alt="LearnIn" title="Learnin" src=".github/logo.png" width="50%" />
+</h1>
 
-# Tecnologias/Padrões
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Devem ser utilizadas as seguintes tecnologias :
+<br>
 
-* React
-* SCSS ou CSS3
-* Axios
-* Testes (Que achar necessário) 
-* Qualquer tecnologia ou padrão complementar as citadas anteriormente são permitidas com as devidas justificativas no README.
+<p align="center">
+  <img alt="Happy" src=".github/learnin.png" width="100%">
+</p>
 
-# O desafio
-## Crie uma Single Page Application para uma consulta de quadrinhos utilizando a API da Marvel para todos os consumos de dados.
+## 🚀 Tecnologias
 
-API: [https://developer.marvel.com](https://developer.marvel.com)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Modo básico o App consiste de uma tela de lista de quadrinhos, uma tela de detalhe do quadrinho (comics), uma funcionalidade de seleção dos quadrinhos e uma fucinalidade para envio via email dos quadrinhos selecionados.
+- [Firebase](https://nodejs.org/en/)
+- [Angular](https://angular.io)
+- [Capacitor](https://capacitorjs.com)
+- [Ionic](https://ionicframework.com)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Qualquer funcionalidade extra é bem vinda para agregar na solução básica proposta.
+## 💻 Projeto
+O Learnin é uma plataforma onde realiza a conexão entre alunos e docentes no processo de envio de atividades, materiais de estudo e dúvidas.💜
+A ideia do projeto foi desenvolver uma aplicação web que seja armazenada em algum dos serviços de nuvem disponíveis atualmente, o escolhido foi o Firebase.
+- [Versão Web Funcional](https://projeto-sdv.web.app)
+- [Versão App] Para testar a versão app (PWA) do site, será necessário executar os passos do tópico <a href="#-instalação">Instalação</a>.
 
-O layout e por sua conta, seja criativo.
-A arquitetura é por sua conta, seja esperto. 
+## 🔧 Instalação
 
-Você será avaliado pela qualidade do código, pela modularidade, pela legibilidade, pela criatividade, pela quantidade de funcionalidades básicas e extra.
+Para executar o projeto em sua máquina/dispostivo, serão necessários os seguintes recursos instalados:
 
-Não esqueça da otimização de velocidade da App nem da experiência do usuário.
+- [Layout Web](Em breve)
+- [Layout Web](Em breve) 
+- [Layout Mobile](Em breve) 
 
-# Funcionalidade da tela:
+## 🔖 Layout
 
-## Tela Principal - Consulta de Quadrinhos
+Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-Esta tela deve conter um input do tipo texto, e ao digitar o nome de um quadrinho deve ser realizada a filtragem dos quadrinhos com base na expressão digitada.
+- [Layout Web](Em breve)
+- [Layout Mobile](Em breve)
 
-Os quadrinhos listados devem ter 02 ações disponíveis ao clicar sobre eles:
 
-* Selecionar o quadrinho
-* Exibir detalhes do quadrinho (modal)
+## :memo: Licença
 
-Abaixo da exibição da listagem dos quadrinhos deve ser criado um botão com a ação de "enviar por email" todos os quadrinhos selecionados.
-O corpo do email, deve conter as seguintes informações para cada quadrinho:
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-* Título
-* Imagem do quadrinho
-* Detalhes do quadrinho
+---
 
-# Deploy da solução
-
-O teste deve estar funcional e disponível para utilização no github-pages do seu usuário.
-Todos os fontes devem estar disponíveis para avaliação em um projeto github do seu usuário.
-
-Prazo: 48 horas
-
-# Arquitetura da solução/O que fazer
-
-No arquivo README do projeto explique o funcionamento e a solução adotada na sua implementação do desafio.
-
-## Avaliação
-
-Entre os critérios de avaliação estão:
-
-* Usabilidade
-* Criatividade
-* Código limpo e organização
-* Documentação de código
-* Documentação do projeto (readme)
-* Performance
+Projeto feito por Guilherme Gomes (Emeritvs) para a matéria de Redes e Sistemas Distribuídos durante a faculdade de Ciência da Computação :wave:

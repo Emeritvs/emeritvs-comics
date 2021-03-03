@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# Desafio para desenvolvedor Front-End React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tecnologias/Padrões
 
-## Available Scripts
+Devem ser utilizadas as seguintes tecnologias :
 
-In the project directory, you can run:
+* React
+* SCSS ou CSS3
+* Axios
+* Testes (Que achar necessário) 
+* Qualquer tecnologia ou padrão complementar as citadas anteriormente são permitidas com as devidas justificativas no README.
 
-### `yarn start`
+# O desafio
+## Crie uma Single Page Application para uma consulta de quadrinhos utilizando a API da Marvel para todos os consumos de dados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+API: [https://developer.marvel.com](https://developer.marvel.com)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Modo básico o App consiste de uma tela de lista de quadrinhos, uma tela de detalhe do quadrinho (comics), uma funcionalidade de seleção dos quadrinhos e uma fucinalidade para envio via email dos quadrinhos selecionados.
 
-### `yarn test`
+Qualquer funcionalidade extra é bem vinda para agregar na solução básica proposta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O layout e por sua conta, seja criativo.
+A arquitetura é por sua conta, seja esperto. 
 
-### `yarn build`
+Você será avaliado pela qualidade do código, pela modularidade, pela legibilidade, pela criatividade, pela quantidade de funcionalidades básicas e extra.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Não esqueça da otimização de velocidade da App nem da experiência do usuário.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Funcionalidade da tela:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tela Principal - Consulta de Quadrinhos
 
-### `yarn eject`
+Esta tela deve conter um input do tipo texto, e ao digitar o nome de um quadrinho deve ser realizada a filtragem dos quadrinhos com base na expressão digitada.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Os quadrinhos listados devem ter 02 ações disponíveis ao clicar sobre eles:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Selecionar o quadrinho
+* Exibir detalhes do quadrinho (modal)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Abaixo da exibição da listagem dos quadrinhos deve ser criado um botão com a ação de "enviar por email" todos os quadrinhos selecionados.
+O corpo do email, deve conter as seguintes informações para cada quadrinho:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Título
+* Imagem do quadrinho
+* Detalhes do quadrinho
 
-## Learn More
+# Deploy da solução
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O teste deve estar funcional e disponível para utilização no github-pages do seu usuário.
+Todos os fontes devem estar disponíveis para avaliação em um projeto github do seu usuário.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Prazo: 48 horas
+
+# Arquitetura da solução/O que fazer
+
+No arquivo README do projeto explique o funcionamento e a solução adotada na sua implementação do desafio.
+
+## Avaliação
+
+Entre os critérios de avaliação estão:
+
+* Usabilidade
+* Criatividade
+* Código limpo e organização
+* Documentação de código
+* Documentação do projeto (readme)
+* Performance

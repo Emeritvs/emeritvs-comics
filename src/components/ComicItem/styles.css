@@ -1,0 +1,65 @@
+.comic-container {
+  font-size: auto;
+  cursor: pointer;
+}
+
+.comic-container img {
+  min-height: 400px;
+  max-height: 400px;
+  width: 100%;
+}
+
+.comic-div {
+  position: relative;
+  cursor: pointer;
+}
+
+.comic-image {
+  display: block;
+  height: auto;
+}
+
+.comic-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comic-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1f2937b3;
+  overflow: hidden;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.comic-div:hover .comic-image {
+  filter: blur(4px);
+}
+
+.comic-div:hover .comic-overlay {
+  height: 100%;
+}
+
+.comic-check {
+  border: 0;
+}
+
+.comic-overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.comic-overlay-content {
+  transform: translate(0%, -20%);
+}

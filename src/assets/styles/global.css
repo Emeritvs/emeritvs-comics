@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Recursive:wght@800;900&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.play-regular {
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+.play-bold {
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+}
+
+.recursive-bold {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 800;
+}
+
+.recursive-extra-bold {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 900;
+}

@@ -29,7 +29,7 @@ Esse projeto utilizou das seguintes APIs:
 -[Marvel API](https://developer.marvel.com)
 
 ## 💻 Projeto
-O Layout foi criado para a realização de um teste de emprego para a T10 Bank.
+O Site foi criado para a realização de um teste de emprego para a IBM.
 
 - [Versão Demo Web (responsivo para mobile)](https://t10-layout.web.app)
 

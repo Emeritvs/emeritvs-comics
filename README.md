@@ -31,7 +31,7 @@ Esse projeto utilizou das seguintes APIs:
 ## 💻 Projeto
 O Site foi criado para a realização de um teste de emprego para a IBM.
 
-- [Versão Demo Web (responsivo para mobile)](https://t10-layout.web.app)
+- [Versão Demo Web (responsivo para mobile)] (Em breve)
 
 ## 🔧 Instalação
 

@@ -42,7 +42,7 @@ Para executar o projeto em sua máquina/dispostivo, serão necessários os segui
 
 Para realizar uma cópia deste projeto em sua máquina utilize o seguinte comando na pasta desejada atráves do prompt/terminal de comando do seu sistema:
 
-```gh repo clone Emeritvs/emeritvs-comics```
+```git repo clone https://github.com/Emeritvs/emeritvs-comics.git```
 
 Com o [Node](https://nodejs.org/en/) instalado anteriormente acesse a pasta com os arquivos clonados do repositório e execute o seguinte comando:
 

@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="LearnIn" title="Learnin" src=".github/logo.png" width="50%" />
+    <img alt="Comics" title="Comics" src=".github/logo.png" width="50%" />
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/learnin.png" width="100%">
+  <img alt="Comics" src=".github/comics.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias

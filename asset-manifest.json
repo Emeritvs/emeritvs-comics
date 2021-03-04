@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/emeritvs-comics/static/css/main.f1e32d8e.chunk.css",
-    "main.js": "/emeritvs-comics/static/js/main.51feaab0.chunk.js",
-    "main.js.map": "/emeritvs-comics/static/js/main.51feaab0.chunk.js.map",
+    "main.js": "/emeritvs-comics/static/js/main.72bff3b1.chunk.js",
+    "main.js.map": "/emeritvs-comics/static/js/main.72bff3b1.chunk.js.map",
     "runtime-main.js": "/emeritvs-comics/static/js/runtime-main.97225b82.js",
     "runtime-main.js.map": "/emeritvs-comics/static/js/runtime-main.97225b82.js.map",
     "static/js/2.1555afb4.chunk.js": "/emeritvs-comics/static/js/2.1555afb4.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.97225b82.js",
     "static/js/2.1555afb4.chunk.js",
     "static/css/main.f1e32d8e.chunk.css",
-    "static/js/main.51feaab0.chunk.js"
+    "static/js/main.72bff3b1.chunk.js"
   ]
 }
